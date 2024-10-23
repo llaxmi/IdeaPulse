@@ -1,0 +1,16 @@
+# YC Idea Checker
+
+A tool that allows users to check if ideas similar to theirs have been funded by YC (Y Combinator) using a JSON dataset of previously funded companies. The application utilizes embeddings and similarity search to find relevant results, ensuring that the responses are strictly based on the JSON data provided.
+
+## Features
+
+- **Similarity Search**: Quickly find ideas similar to your query by analyzing the JSON data of funded companies.
+- **JSON-Only Data**: All responses are generated solely based on the data from the JSON file, with no external data or information used.
+- **Clear Feedback**: Provides a message if no similar ideas are found, encouraging users to explore potential funding options for their ideas.
+
+## Technologies Used
+
+- **LangChain**: Core library for constructing prompts, output parsing, and document processing.
+- **Ollama**: Utilized for embeddings and similarity matching.
+- **React & Vite**: For building the front-end interface (if applicable).
+- **JavaScript**: Core language for the backend logic.

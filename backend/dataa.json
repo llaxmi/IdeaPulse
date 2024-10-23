@@ -1,0 +1,322 @@
+[
+  {
+    "id": 29976,
+    "name": "Freestyle",
+    "slug": "freestyle",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b0299dba6774c882d9a658c3116ab00c79bf5cf4.png",
+    "website": "https://www.freestyle.sh",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Ben and Jacob met in Calculus class in 10th grade, and tried founding a startup in high school — it didn’t go anywhere, but it taught them a ton.\r\n\r\nDuring high school, Ben lead the frontend team for the World Health Organization’s COVID-19 App Team.\r\n\r\nAfter high school, Jacob went to Apple and Ben went to college. When there was an opening on his team, Jacob had Ben apply, and Ben left UChicago to go work at Apple.\r\n\r\nThey spent about 2 years at Apple as Senior Engineers in the Conversational Engineering Department, before leaving to found Freestyle.\r\n\r\nFreestyle is directly inspired by what they saw as their failures of the tech they worked with at Apple.",
+    "one_liner": "Build exceptional infrastructure with just JavaScript."
+  },
+  {
+    "id": 29973,
+    "name": "Arva AI",
+    "slug": "arva-ai",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c7ad5e9f30df10c9af5c698c5e9feafc2ab0de76.png",
+    "website": "https://www.arva-ai.com",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Every time a business onboards onto a bank or fintech a human analyst has to conduct manual document verification. We replace those human KYB (know your business) analysts with AI agents that handle cases in seconds, not days.\r\n\r\nCurrently, 30% of know your business (KYB) cases result in manual review work. With Arva's AI agents the whole end-to-end onboarding experience is automated. Instant onboarding whilst reducing operational costs by 80%.\r\n\r\nOur end goal is to have a whole suite of AI workers that can handle manual compliance work for banks and fintechs. A $24B opportunity in the US alone.",
+    "one_liner": "AI agents for instant business verification"
+  },
+  {
+    "id": 29972,
+    "name": "Affil.ai",
+    "slug": "affil-ai",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/afaac0ba9fea3d823a798e81e6b89e28c34dbd0e.png",
+    "website": "https://affil.ai/",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "We help companies like Capital One work with their affiliate content creators like CNBC more easily. Affiliate is an important growth channel, accounting for 25% of new credit card sign-ups, but today's financial companies use multiple layers of middleman to do their affiliate marketing and adhere to compliance guidelines.  This is costly and time consuming for fintechs and affiliates alike in this massive market. \r\n\r\nAffil leverages AI to automate affiliate compliance, monitoring, and management to wrap the middleman into major player. This not only makes it easier for fintechs to market their products, but it also helps improve the affiliate experience as well. ",
+    "one_liner": "AI Affiliate Network For Financial Companies"
+  },
+  {
+    "id": 29969,
+    "name": "OrgOrg",
+    "slug": "orgorg",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3fb29e15efef66c7b44bb861d2b14c2d4cc13ca4.png",
+    "website": "https://orgorg.us",
+    "all_locations": "Los Altos, CA, USA; Remote",
+    "long_description": "OrgOrg is a suite of apps that keeps teams productive and healthy regardless of the size of your organization. Founded by the creator of Zenter (YC 07, acquired by Google and became Google Slides), OrgOrg is designed to be a natural extension of Google Workspace Apps to help run organizations collaborate better leading to higher productivity.\r\n\r\nToday the suite includes apps like:\r\n  \r\n• Go links: Go links allows anyone in the org to easily name any link so team members can jump directly to the information that matters most: go/sales, go/production, go/anything-you-want.\r\n• Profiles with Personality: OrgOrg profiles are as insightful as they are delightful. They not only show you the expected org chart data, but also highlight accomplishments, how you like to work, and who you are as a person.\r\n• Goal tracking: Track, share, and collaborate on \"big rock\" goals on the cadence that makes sense for your team from daily to annually.\r\n• Branded New Tab: Keep the team focused the next major milestone, broadcast announcements, and keep important links top of mind every time a new browser tab is opened.\r\n• All Hands Q&A: Crowdsource questions, anonymously if desired, for large team meetings to make sure everyone's voice is heard, and the most top of mind questions are answered and recorded.\r\n• Smart Groups: Create rules based groups of people and use them to make sure the right people are in the right conversations and have the right access. For example, anyone with the title of \"Software Engineer\" should be in the #eng slack channel and eng@ google group.\r\n• On-call: Schedule smart rotations that take into account balancing the load and using signals from calendar schedules to make sure you don't waste time figuring out who can cover what in a fair way. Easily page the on-call from slack, API, or OrgOrg directly.\r\n• And more...\r\n\r\nAll the tools you need so you can spend more time focusing on your core business, and less time focusing on the complexity that comes from running an organization.",
+    "one_liner": "Organizational productivity suite for companies"
+  },
+  {
+    "id": 29968,
+    "name": "Patched",
+    "slug": "patched",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a2ac264e6877792745759c5eec0d699fa373574f.png",
+    "website": "https://patched.codes",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Patched empowers development teams to build and deploy AI-assisted workflows that can autonomously complete post-code tasks like documentation, code reviews, and security patching. Our workflows can be customized using a visual builder and can be self-hosted with any AI model, enabling automation without compromising security, control, or compliance.",
+    "one_liner": "Open-source workflow automation for dev teams"
+  },
+  {
+    "id": 29967,
+    "name": "Village Labs",
+    "slug": "village-labs",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b437f74d1da9b456b7203c06d57c8eae2c1fa858.png",
+    "website": "https://villagelabs.app/",
+    "all_locations": "New York, NY, USA",
+    "long_description": "At Village Labs, we help America's businesses become employee owned by helping them set up and manage an employee stock ownership plan (ESOP). \r\n\r\nESOPs are a federal retirement plan that enable businesses to give their employees a stake in the company in exchange for significant tax benefits. \r\n\r\nWith 2.9M Baby Boomer business owners set to retire in the coming years, there's a growing \"Silver Tsunami\" of businesses across the country in search of new ownership. For many of these owners, selling to their employees is a socially-minded yet financially pragmatic solution.\r\n\r\nBy selling ownership of their business to an ESOP, owners get a fair price, tax benefits, and the satisfaction of knowing their employees and legacy will be taken care of — things not guaranteed with traditional buyers like private equity. In turn, employees retain their jobs and get shares in the business that can help them create life changing wealth by the time they retire — imagine an office secretary retiring as a millionaire. \r\n\r\nThousands of businesses across America like Bob's Red Mill, Harpoon Brewery, and Recology already have an ESOP, benefiting over 14 million workers and creating 2.1 trillion in employee wealth. We're excited about the opportunity to massively grow these numbers by making it simple for every business to become employee owned. \r\n",
+    "one_liner": "Helping America's businesses become employee owned"
+  },
+  {
+    "id": 29966,
+    "name": "Mica AI",
+    "slug": "mica-ai",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e5673bb763cddf60cddfa3da8562713ab0fdce74.png",
+    "website": "https://usemica.com/",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Mica builds AI Agents that automate B2B sales. Our agents analyze sales calls, generate tailored collateral, and follow up until the deal is closed.\r\n\r\nThe founders met at UC Berkeley, and at our last jobs, we saw that the best sales reps weren’t just great at selling—they were elite content creators. They crafted tailored collateral like decks and highlight videos for each buyer, and their champions used this info to advocate for purchasing their product within their companies. \r\n\r\nHowever, because this takes more than 30 minutes per call, even the best reps could only do tailored follow-ups for a few clients, leaving millions in lost deals.\r\n\r\nMica’s agents reduce that time to less than a minute. This lets top performers do A+ work on every deal and helps the rest of the team sell like a top performer.\r\n\r\nSales collateral creation and follow-up is a $11b market in the US but this is just our beachhead. We’ll ship a fleet of agents that automate and eventually replace every other facet of the $80b enterprise sales market.  \r\n\r\n",
+    "one_liner": "AI Agents that Automate B2B Sales"
+  },
+  {
+    "id": 29965,
+    "name": "Formula Insight",
+    "slug": "formula-insight",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d24f87db5131a298b5fd35aba59870c07522d6f.png",
+    "website": "https://www.formulainsight.io/",
+    "all_locations": "New York, NY, USA",
+    "long_description": "Formula Insight offers Institutional Investors previously inaccessible data. We provide a central repository of financial models so investors can track changes to forecasts, quantify projection accuracy and expedite analysis.  This further systematizes the investment process and enables better investment decisions.",
+    "one_liner": "Help Institutional Investors manage, track & query their Excel models"
+  },
+  {
+    "id": 29964,
+    "name": "Overlap",
+    "slug": "overlap",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4998b9bdb179ae20d8af8c2a3631f5ca038a41d2.png",
+    "website": "https://www.joinoverlap.com/",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Overlap is Perplexity for the millions of hours of smart YouTube and interview content out there. \r\n\r\nPrompt Overlap with any topic and get the perfect clip. We have 7k users growing over 200% month-over-month since launching.",
+    "one_liner": "Overlap is Perplexity for video & audio content"
+  },
+  {
+    "id": 29963,
+    "name": "Capitol AI",
+    "slug": "capitol-ai",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d21edd589862cd64f905545df119c53426538c8d.png",
+    "website": "https://www.capitol.ai/",
+    "all_locations": "Washington, DC, USA",
+    "long_description": "As Perplexity or Gemini replaces the Google Search we all use today, it will remove the need to ever visit a website. This is an existential risk to all media brands, which is why Capitol went from zero to $1.68M in revenue during YC: all media companies need to offer THEIR OWN Perplexity-like experience to maintain their direct relationship with customers. The most trusted brand in political news and analysis, Politico, chose us to power their Politico Pro Subscription product.\r\n\r\nConsumers expect instant personalized answers. Publishers won’t build this on their own.\r\n\r\nCapitol’s API lights up publishers' websites and apps so their end users can generate personalized search results, cited research reports, and even tweet storms using the publisher’s proprietary data—all within their paywall. \r\n\r\nCapitol is the new last mile of content delivery for publishing. This market is $16b in 2023, and will grow to $85.6b in 2030.\r\n\r\nGemini and Perplexity are the imperial forces. Capitol is arming the rebels.\r\n",
+    "one_liner": "Capitol is a custom perplexity for every website in the world."
+  },
+  {
+    "id": 29962,
+    "name": "Kart AI",
+    "slug": "kart-ai",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/26d03427ec3ea68c07451c35b4d65e5adcaa30cc.png",
+    "website": "https://kart.ai",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "You might have seen that Amazon recently launched Rufus, an AI conversational shopping assistant that’s everywhere on their online store. Every retailer now wants the same technology on their site - and that’s what we enable.",
+    "one_liner": "The AI shopping assistant for all e-commerce brands"
+  },
+  {
+    "id": 29960,
+    "name": "Void",
+    "slug": "void",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0ab88e3a4fc8224ae094d26b68f966408fe4cf3f.png",
+    "website": "https://voideditor.com",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Void is an open source AI code editor. It provides developers with the AI features of Cursor, GitHub Copilot, and more, without sending their code to an external API.",
+    "one_liner": "The open source Cursor alternative"
+  },
+  {
+    "id": 29957,
+    "name": "Anglera",
+    "slug": "anglera",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4a8bc8b5c8de45073e0d61917890db15c4ddc8cb.png",
+    "website": "https://www.anglera.com/",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "At Anglera, we're developing a suite of AI agents to help e-commerce companies run their operations more efficiently. Our flagship agent helps our customers onboard, enrich, and manage their product data, reducing time per product from 15 mins down to 5 seconds.\r\n\r\nWe previously developed ML to automatically enrich millions of products at Uber Eats, and we're now on a mission to automate the most common manual workflows for every e-commerce business.",
+    "one_liner": "AI-native operating system for e-commerce"
+  },
+  {
+    "id": 29956,
+    "name": "XTraffic",
+    "slug": "xtraffic",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0bccc8d721dd1ad624677c161bcecf5383b7dfc8.png",
+    "website": "https://XTraffic.com/",
+    "all_locations": "Dallas, TX, USA",
+    "long_description": "XTraffic is at the intersection of advancements in sensor technology and affordability. Where it would previously cost a city up to $100,000 per intersection to create intelligent traffic lights, we can accomplish the same for pennies on the dollar. This means entire cities can affordably upgrade their infrastructure - and some already are. We are live in multiple Texas cities, with both ongoing and successful pilots, corridors of multiple intersections, and soon to be entire cities. Our customers enjoy less traffic, better safety, and data on which to build their future.",
+    "one_liner": "Technology for cities to automate and manage their traffic lights."
+  },
+  {
+    "id": 29955,
+    "name": "Felafax",
+    "slug": "felafax",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/19098ddbcbcba713e4458237b6983a1d740db751.png",
+    "website": "https://felafax.ai",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Felafax is building AI infra for non-NVIDIA GPUs. With our ML experience from Google and Meta, we built a new AI stack that is 2x more cost-efficient and performant without needing Nvidia’s CUDA.",
+    "one_liner": "Building AI Infra for non-NVIDIA GPUs "
+  },
+  {
+    "id": 29954,
+    "name": "Henry",
+    "slug": "henry-2",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d265b62e9a71a10a393d1dd6dc5f7e7aee9d789.png",
+    "website": "http://www.henry.ai",
+    "all_locations": "New York, NY, USA",
+    "long_description": "Henry is an AI copilot for commercial real estate (CRE) brokers that seamlessly integrates a brokerage’s internal data set with external sources to generate custom presentations and financial modeling for deals. Our mission is to help CRE brokers close more deals faster, earning more while doing less repetitive work. We’re initially focusing on enabling brokers to generate deal decks in seconds—a task that typically consumes 20+ hours a week across multiple departments within a brokerage.",
+    "one_liner": "Automating Deal Decks for Commercial Real Estate Brokers"
+  },
+  {
+    "id": 29953,
+    "name": "Hey Revia",
+    "slug": "hey-revia",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9f4ffb580e2b7f9d32ad41f2bca07eed911ae32b.png",
+    "website": "https://heyrevia.ai",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Hey Revia is a voice AI that handles complex phone calls for healthcare providers. Our software automates complex menus, reduces hold times, and handles tedious phone calls—verifying provider details, updating insurance info, and securing approvals. We offer Revia as web app, mobile app and API.",
+    "one_liner": "Voice AI to automate complex phone calls for healthcare providers"
+  },
+  {
+    "id": 29952,
+    "name": "Ficra",
+    "slug": "ficra",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0dc17fe22b167d4939fbd99c8dd3dcf2bb877cd0.png",
+    "website": "https://ficra.ai/",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Ficra enables product teams to ship higher quality releases, faster. \r\n\r\nFicra is the source of truth for every product screen and user flow, giving companies real-time visibility into what their users actually see in their live product. Ficra's AI provides a live, visual map of your users’ journeys: every screen, flow, A/B test, push notification and email. \r\n\r\nWith Ficra, product teams no longer waste 25% of their time auditing complex user flows to assess product quality and find the blind spots in funnels.",
+    "one_liner": "Real time, source of truth for every product screen and user flow"
+  },
+  {
+    "id": 29951,
+    "name": "RowBoat Labs",
+    "slug": "rowboat-labs",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/708761dfc6b55493ba6e6c9b19c7042e9e4e06d9.png",
+    "website": "https://www.rowboatlabs.com",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "RowBoat Labs offers pre-trained LLM agents for customer support, which continuously learn from usage. Our LLMs are safe and brand-aligned. RowBoat agents seamlessly integrate into your systems and take actions where necessary.",
+    "one_liner": "LLM agents for customer support in fintech"
+  },
+  {
+    "id": 29950,
+    "name": "Pipeshift",
+    "slug": "pipeshift",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/290c0065a5ffe07236a3cc433e4c722863914784.png",
+    "website": "https://pipeshift.com",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Pipeshift is the \"Vercel for open-source LLMs\", offering a platform for finetuning, distilling, and inferencing open-source LLMs for engineering teams to get to production with their LLMs 10x faster. With Pipeshift, companies making >1000 calls/day on frontier LLMs can use their data and logs to replace GPT/Claude in production with specialized LLMs that offer higher accuracy, lower latencies, and model ownership.\r\n\r\nWe are experts in LLMs, having scaled LLMs to 1000s of users in 2023. That's when we saw the massive drawbacks of closed-source LLMs in production, making us start Pipeshift. We met 6 years back as roommates during undergrad, and before starting Pipeshift, we led a defense robotics non-profit backed by NVIDIA and built a health-tech startup.\r\n\r\nThe shift to AI is like the shift to the cloud, every company is going to implement AI. And, open-source AI will be as good as closed-source AI. Meta's Llama 3.1 models prove that. But, the open-source AI stack is a complete mess, with companies needing a team of engineers to set up 10+ different tools just to get started and every optimization needs countless engineering hours.\r\n\r\nPipeshift offers this stack out of the box. With our fine-tuning + distilling platform and one-click deployment stack for hosting these LLMs, we ensure 10x faster experimentation cycles and time-to-production. Think \"Vercel for open-source LLMs\".",
+    "one_liner": "Platform for Fine-tuning, Distilling and Inferencing Open-source LLMs."
+  },
+  {
+    "id": 29858,
+    "name": "Vera Health",
+    "slug": "vera-health",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f3e3b0d6c435e444f21ce5659e297ba0ef644c73.png",
+    "website": "https://www.vera-health.ai",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "We empower healthcare providers, starting with emergency physicians, with instant access to up-to-date evidence-based answers. Our platform cuts through the noise to deliver trustworthy medical information 10x faster, revolutionizing clinical decision-support.",
+    "one_liner": "AI-powered clinical decision support for healthcare providers"
+  },
+  {
+    "id": 29857,
+    "name": "Pharos",
+    "slug": "pharos",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6bc69e6d80f63ab6e42521e8b3794045119a54b.png",
+    "website": "https://pharos.health/",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Pharos automates hospital quality reporting, saving millions in labour costs and helping to prevent avoidable patient harm. \r\n\r\nToday, clinicians spend thousands of hours manually pulling complex facts out of medical records for mandatory reporting and quality improvement.\r\n\r\nOur AI pulls those facts out of unstructured medical records automatically. We automate reporting and show staff where avoidable patient harm is happening.",
+    "one_liner": "Automate hospital reporting and prevent patient harm with AI"
+  },
+  {
+    "id": 29856,
+    "name": "et al.",
+    "slug": "et-al",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d505a9f785d5fbe835969de244a7a0e565f25d58.png",
+    "website": "https://www.et-al.io",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "et al. is a mobile app that aggregates your newsletters, research papers, articles, and more, in one place. Think of it as an LLM-powered feed delivering you useful content in short insights.\r\n\r\nFor example, if you’re building an AI voice agent, you’ll see the latest in speech-to-text models without having to actively search, go through a pile of research papers, or prompt an LLM.\r\n\r\nWe extract key takeaways from long-form content - allowing you to read as little or as much as you like from the original piece of information. With et al., you get to stay on top of breakthroughs in your field, build knowledge, and discover new interests effortlessly.",
+    "one_liner": "Feed of insights extracted from your go-to sources using LLMs."
+  },
+  {
+    "id": 29854,
+    "name": "Keet",
+    "slug": "keet",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8e0caa2cad35d6f34cdbfbf4ac96d85d2f1a09ca.png",
+    "website": "https://trykeet.com",
+    "all_locations": "",
+    "long_description": "Keet provides APIs for any website. Developers use us to connect their customers accounts and perform actions on their behalf. \r\n\r\nWhether it be legacy software or consumer sites, Keet manages your users authenticated sessions and provides stable integrations on any web platform. Now your AI Agent can access healthcare data or send automated messages on LinkedIn via Keet’s API or SDK.",
+    "one_liner": "APIs for any website"
+  },
+  {
+    "id": 29853,
+    "name": "Terra",
+    "slug": "terra-2",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e29636bebc1616780dfb5c53b76be0c6ea7607c5.png",
+    "website": "https://useterra.com/",
+    "all_locations": "New York, NY, USA",
+    "long_description": "Enter Terra, a new world of product building. Connect with suppliers, expedite sampling, and track production in real-time, removing the uncertainties of overseas manufacturing.\r\n",
+    "one_liner": "Terra is like Faire for custom goods"
+  },
+  {
+    "id": 29852,
+    "name": "AI Sell",
+    "slug": "ai-sell",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/db738687b654dc2a17e4e9cd0e66a253c4ea1a93.png",
+    "website": "https://www.aisell.com",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "We're building AI Sales Associates for eCommerce. Imagine going on nike.com and facetiming an AI Lebron James and getting his advice on which his shoes to buy. Traditional brick-and-mortar retail stores rely on sales associates to provide personalized customer service, guide product discovery and close sales, but it's always been too expensive and unscaleable for online stores. We're building video-based AI agents that are experts in their products and can gently steer customers to a purchase, delighting customers and lifting conversion/AOV.\r\n\r\nJerry and Jeffrey are brothers who previously worked together to scale The Coding School to a 6mil+ in revenue. Jerry built software to help run the 50+ Shopify brands that Openstore acquired more profitably and efficiently. He was also an engineer at Flexport and Google.\r\n\r\nJeffrey previously worked at DRW as a quant trader, and as an engineer at Facebook, Snowflake and Amazon.\r\n",
+    "one_liner": "AI Sales Associate for Ecommerce"
+  },
+  {
+    "id": 29851,
+    "name": "Diode Computers, Inc.",
+    "slug": "diode-computers-inc",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a1e7f9d9a50296d38458d5ad7a76c87823682bc2.png",
+    "website": "https://diode.computer",
+    "all_locations": "New York, NY, USA",
+    "long_description": "Diode automates hardware design, like hiring a senior electronic engineer for your projects. We use generative AI models to create custom printed circuit boards in minutes, not weeks.",
+    "one_liner": "Automate circuit board design using AI"
+  },
+  {
+    "id": 29850,
+    "name": "SureBright",
+    "slug": "surebright",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/637e029a9dd28023684af2fb257e1a2adbe4db31.png",
+    "website": "https://surebright.com/",
+    "all_locations": "New York, NY, USA; Remote",
+    "long_description": "SureBright lets e-commerce merchants embed \"Apple Care” like product warranties into their checkout flows in less than 10 minutes. Our AI-powered warranty platform generates incremental revenue and boosts customer loyalty at zero cost to the merchant.\r\n\r\nWe earn a margin on each policy sold. Currently, we’re live with 60 merchants generating $22K in monthly revenue. We’ve booked an additional $50K of monthly revenue in signed contracts. \r\n\r\nSanket led engineering at PolicyBazar, an insurance tech company that IPOed and is valued at over $8B. Manish worked at Amazon and has built $100M ARR products, handling over 180B requests per day.\r\n\r\nUntil now, finding the right policy for any product and pricing it at the right price wasn’t possible at scale. We automated this process using LLM and have unlocked a $50B+ opportunity. Each month, over 5 million consumers view SureBright warranty offers.",
+    "one_liner": "Apple Care-like warranty program for every retailer "
+  },
+  {
+    "id": 29849,
+    "name": "Usul",
+    "slug": "usul",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1b29fc94915cb31662bedfaa8eda5297b0c9e5bb.png",
+    "website": "https://www.usul.co/",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Usul helps companies win defense contracts with AI. Recent conflicts have forced the DoD to demand the next-generation of military technology. So we built software for US companies and our allies to collaborate and sell to the government. \r\n\r\nIn the past 3 weeks, we’ve signed 6 customers at $104k ARR and 12 pilots worth another $212k ARR when they convert. This includes the fastest-growing defense company and a big 3 consulting firm.\r\n\r\nThere are 1M companies who sell to the DoD, and we charge $24k on average. This is a $24B market that's growing quickly due to recent geopolitics.\r\n\r\nWe’re 4 Stanford engineers from Palantir, NASA, & Reliable Robotics where we experienced this problem first hand and learned how to win this market. ",
+    "one_liner": "Win Defense Contracts with AI."
+  },
+  {
+    "id": 29848,
+    "name": "Saldor",
+    "slug": "saldor",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7a075f23bbd8f7661151fbd5110d6e48d39a3b3a.png",
+    "website": "https://saldor.com/",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Engineers use Saldor's API to provide high quality web data to their AI agents.",
+    "one_liner": "The web scraper for AI"
+  },
+  {
+    "id": 29847,
+    "name": "Bucket Robotics",
+    "slug": "bucket-robotics",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/55cc697d9f14eca5a5d45772ac14d97a83df16ae.png",
+    "website": "https://bucket.bot",
+    "all_locations": "Pittsburgh, PA, USA",
+    "long_description": "250M lbs of plastic is wasted annually in US manufacturing. Bucket Robotics is making defect detection faster and easier to deploy to prevent that.\r\n\r\nOur products are designed to be easy to integrate into existing automation and technology stacks, flexible enough to bring retooling costs down, and reliable enough to make you forget that it's a robot.\r\n\r\nMatt and Steph are leveraging their experience from the self-driving industry, where we've integrated high-performance computing and quality sensing into complex, noise-filled environments. We focus on robust hardware and user-friendly software for a new generation of end-users, ensuring ease of use and rapid deployment.\r\n\r\nSecure and efficient handling of user data can make customers in the manufacturing space nervous to invest in sensing — our team's extensive experience handling self-driving car data in these regulated environments positions us uniquely to tackle these challenges. Companies like Keyence, National Instruments, and FLIR offer either outdated hardware or prohibitively expensive systems, along with software that hasn’t evolved to meet modern user needs.\r\n\r\nUS manufacturing is undergoing a significant transformation, with construction spending hitting a record annualized pace of over $200 billion. The need for a more reliable supply chain has seen over $700 billion in manufacturing megaprojects across North America since 2021, and this growth requires heavy automation. Bucket Robotics is at the forefront of this shift, offering a scalable, cost-effective solution that enhances automation and positions manufacturers closer to their end customers.",
+    "one_liner": "Defect detection for manufacturing built from CAD and synthetic data."
+  },
+  {
+    "id": 29844,
+    "name": "Oway",
+    "slug": "oway",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/743c785c35b25f87660bedbb70b1a2667dbe9c7e.png",
+    "website": "https://www.oway.io",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Oway is a rideshare freight platform that uses machine learning to automatically coordinate and sell unused space in trucks to SMBs at a 50% discount for lightning-fast shipping. \r\n\r\nEvery year, nearly 50% all truck space goes unused annually in the almost $1T US trucking industry. On the other hand, SMBs represent 44% of the US GDP and are historically forced to deal with high freight rates and friction due to their small size compared to enterprise businesses. \r\n\r\nWith trucking being a hyper-fragmented market (90%+ of US trucking companies are small family businesses), we decided to build an ecosystem that takes all of this inefficiency and turns it into something that could fundamentally transform the livelihoods of businesses and drivers alike.\r\n\r\nOway is designed to be simple (you can place an order in 30 seconds) and scale with your business. Our ML rideshare protocol now allows businesses to ship freight affordably and faster than ever before. We also improve the survivability of independent truckers by maximizing their revenue when they’re already on the road - and it’s great for the environment too. 🍃",
+    "one_liner": "Ridesharing freight with ML to cut SMB shipping costs by 50%"
+  }
+]
