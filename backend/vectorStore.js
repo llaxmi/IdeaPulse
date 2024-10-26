@@ -1,67 +1,79 @@
 import { JsonOutputParser } from "@langchain/core/output_parsers";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { Ollama, OllamaEmbeddings } from "@langchain/ollama";
-import { config } from "dotenv";
 import { JSONLoader } from "langchain/document_loaders/fs/json";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 
-config();
+const formatInstructions = `
+Respond only in valid JSON. The JSON array should contain objects with the following schema: [{ "name": string, "website": "string", "all_locations": "string", "logo": "string", "one_liner": "string" }]
+If no similar ideas are found, respond with an empty JSON array: []
+Strictly return only JSON with no additional text, comments, or line breaks outside of the JSON structures.
+`;
 
-async function run(question) {
-  const loader = new JSONLoader("./dataa.json");
+async function run(query) {
+  const loader = new JSONLoader("./minData.json");
 
   try {
-    // Load documents from the JSON file
+    // Load documents
     const docs = await loader.load();
 
-    // Create a vector store from the loaded documents
+    // Initialize Vector Store
     const vectorStore = await MemoryVectorStore.fromDocuments(
       docs,
-      new OllamaEmbeddings({
-        model: "nomic-embed-text",
-      })
+      new OllamaEmbeddings({ model: "nomic-embed-text" })
     );
+
+    // Create a retriever for similarity search
+    const retriever = vectorStore.asRetriever({
+      k: 10,
+      searchType: "similarity",
+    });
 
     // Perform similarity search
-    const result = await vectorStore.similaritySearch(question, 10);
-
-    if (result.length === 0) {
-      throw new Error(`No similar results found for the question: ${question}`);
+    const retrievedDocs = await retriever.invoke(query);
+    if (!retrievedDocs || retrievedDocs.length === 0) {
+      return JSON.stringify([]); // Return empty JSON array if no similar ideas are found
     }
 
-    // Initialize Ollama with the desired model
-    const bot = new Ollama({
-      model: "llama3.1",
+    // Extract necessary fields directly from the retrieved documents
+    const extractedData = retrievedDocs.map((doc) => {
+      const { name, website, all_locations, logo, one_liner } = doc.pageContent;
+      return { name, website, all_locations, logo, one_liner };
     });
 
-    const formatInstruction = `
-    Response should contain an array of valid JSON objects, each containing fields: "name", "long_description", "all_locations", "one_liner", and "website".
-    If no matching companies are found who have funded similar ideas before, return a JSON with the message: "No similar companies found.".
-    `;
+    const formattedDocs = JSON.stringify(extractedData);
 
-    const parser = new JsonOutputParser();
+    // Initialize LLM model
+    const llm = new Ollama({ model: "llama3.1" });
 
-    const promptTemplate = ChatPromptTemplate.fromTemplate(
-      `Extract the core idea from the user's input: {query}.
-      Find and sort the most similar previously funded ideas based on relevance to the {query} from the given JSON data.
-      {format_instructions}\n{query}`
-    );
+    // Create the prompt template
+    const prompt = ChatPromptTemplate.fromTemplate(`
+      Based on the user's query: "{query}",
+      retrieve and list the most similar previously funded companies from the documents below.
+      Documents:
+      {docs}
+      {format_instructions}
+    `);
 
-    // Combine the partial prompt template with the format instructions
-    const finalPrompt = await promptTemplate.partial({
-      format_instructions: formatInstruction,
+    // Prepare partial prompt
+    const partialPrompt = await prompt.partial({
+      format_instructions: formatInstructions,
+      docs: formattedDocs, // Using the extracted data for LLM processing
     });
 
-    const finalChain = finalPrompt.pipe(bot).pipe(parser);
+    // Build the chain and invoke
+    const chain = partialPrompt.pipe(llm).pipe(new JsonOutputParser());
+    const result = await chain.invoke({ query });
 
-    // Execute the chain
-    const response = await finalChain.invoke({ query: question });
-
-    console.log("Response:", response);
-    return response;
+    return result;
   } catch (error) {
-    console.error("An error occurred:", error.message);
-    return null;
+    console.error(
+      "An error occurred while processing the query:",
+      error.message
+    );
+    return JSON.stringify({
+      message: "An error occurred. Please try again later.",
+    });
   }
 }
 
