@@ -1,16 +1,81 @@
-# YC Idea Checker
+# IdeaPulse
 
-A tool that allows users to check if ideas similar to theirs have been funded by YC (Y Combinator) using a JSON dataset of previously funded companies. The application utilizes embeddings and similarity search to find relevant results, ensuring that the responses are strictly based on the JSON data provided.
+IdeaPulse is a web application that allows users to quickly check if ideas similar to theirs have been funded by Y Combinator (YC). The tool utilizes React.js, Vite, LangChain, and Vector Store to provide an efficient and user-friendly experience. Users can input their ideas, and the application will search through a database of funded projects to find relevant matches.
 
-## Features
+### Features
 
-- **Similarity Search**: Quickly find ideas similar to your query by analyzing the JSON data of funded companies.
-- **JSON-Only Data**: All responses are generated solely based on the data from the JSON file, with no external data or information used.
-- **Clear Feedback**: Provides a message if no similar ideas are found, encouraging users to explore potential funding options for their ideas.
+- **Idea Submission**: Users can submit their ideas for analysis.
+- **Search Functionality**: Quickly check if similar ideas have been funded by YC.
+- **User-friendly Interface**: Built with React.js for a seamless user experience.
+- **Fast Performance**: Utilizes Vite for rapid development and hot-reloading.
+- **Ollama Integration:** Leverages Ollama models for advanced text processing and comparison.
 
-## Technologies Used
+### Technologies Used
 
 - **LangChain**: Core library for constructing prompts, output parsing, and document processing.
 - **Ollama**: Utilized for embeddings and similarity matching.
 - **React & Vite**: For building the front-end interface.
 - **JavaScript**: Core language for the backend logic.
+
+## 🤝 Contributing to IdeaPulse
+
+Appreciate your interest in contributing to IdeaPulse! Your contributions can make this project even more powerful and user-friendly. Whether you're fixing bugs, adding new features, or improving documentation, we welcome all contributions.
+
+## 📝 Guidelines
+
+Before you begin, please read and follow these guidelines:
+
+### 1. Issues & Feature Requests
+- **Descriptive titles**: Use a clear and concise title that describes the problem or feature request.
+- **Provide details**: If reporting a bug, include steps to reproduce, expected behavior, and screenshots if possible.
+
+### 2. Fork the Repository
+1. **Fork** the repository by clicking on the 'Fork' button at the top-right corner of the [IdeaPulse GitHub page](https://github.com/llaxmi/IdeaPulse.git).
+2. Clone the forked repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/IdeaPulse.git
+   cd IdeaPulse
+
+3. Set Up Local Environment:
+Ensure you have the following installed:
+- Node.js: v16 or higher
+- Npm: Package manager
+- Vite: For building the React app
+- Ollama: Ensure the Ollama models are installed on your device
+
+### Steps to Set Up:
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+2. **Start Ollama on your device:**
+   ```bash 
+   ollama serve
+3. **Run the development server:**
+   ```bash
+   npm run dev
+
+### Making Changes
+
+1. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+
+2. Make your changes and commit:
+   ```bash
+   git add .
+   git commit -m "Add: Description of what you did"
+
+3. Push your branch:
+   ```bash
+   git push origin feature/your-feature-name
+
+### Submit a Pull Request (PR)
+
+- Go to your forked repository on GitHub.
+- Click on the New Pull Request button.
+- Provide a detailed description of your changes, linking any issues if applicable.
+
+If you have any questions or need help, feel free to open an issue or reach out via email.
+
+Happy coding! 🎉
