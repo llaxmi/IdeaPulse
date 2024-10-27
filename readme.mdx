@@ -8,7 +8,7 @@ IdeaPulse is a web application that allows users to quickly check if ideas simil
 - **Search Functionality**: Quickly check if similar ideas have been funded by YC.
 - **User-friendly Interface**: Built with React.js for a seamless user experience.
 - **Fast Performance**: Utilizes Vite for rapid development and hot-reloading.
-- **Ollama Integration:** Leverages Ollama models for advanced text processing and comparison.
+- **Ollama Integration**: Leverages Ollama models for advanced text processing and comparison.
 
 ### Technologies Used
 
@@ -21,29 +21,45 @@ IdeaPulse is a web application that allows users to quickly check if ideas simil
 
 Appreciate your interest in contributing to IdeaPulse! Your contributions can make this project even more powerful and user-friendly. Whether you're fixing bugs, adding new features, or improving documentation, we welcome all contributions.
 
-## 📝 Guidelines
+### 📝 Guidelines
 
 Before you begin, please read and follow these guidelines:
 
-1. Issues & Feature Requests
-- **Descriptive titles**: Use a clear and concise title that describes the problem or feature request.
-- **Provide details**: If reporting a bug, include steps to reproduce, expected behavior, and screenshots if possible.
+1. **Issues & Feature Requests**:
+   - **Descriptive titles**: Use a clear and concise title that describes the problem or feature request.
+   - **Provide details**: If reporting a bug, include steps to reproduce, expected behavior, and screenshots if possible.
 
-2. Fork the Repository
-- **Fork** the repository by clicking on the 'Fork' button at the top-right corner of the [IdeaPulse GitHub page](https://github.com/llaxmi/IdeaPulse.git).
-- Clone the forked repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/IdeaPulse.git
-   cd IdeaPulse
+2. **Fork the Repository**:
+   - **Fork** the repository by clicking on the 'Fork' button at the top-right corner of the [IdeaPulse GitHub page](https://github.com/llaxmi/IdeaPulse.git).
+   - Clone the forked repository to your local machine:
+     ```bash
+     git clone https://github.com/your-username/IdeaPulse.git
+     cd IdeaPulse
+     ```
 
-3. Set Up Local Environment:
-Ensure you have the following installed:
-- Node.js: v16 or higher
-- Npm: Package manager
-- Vite: For building the React app
-- Ollama: Ensure the Ollama models are installed on your device
+3. **Set Up Local Environment**:
+   Ensure you have the following installed:
+   - Node.js: v16 or higher
+   - npm: Package manager
+   - Vite: For building the React app
+   - Ollama: Ensure the Ollama models are installed on your device.  
+     Visit the official [Ollama website](https://ollama.com) for installation instructions. Follow the guidelines provided there to set up Ollama on your device.  
 
-### Steps to Set Up:
+     After installation, you can verify that Ollama is installed correctly by running:
+     ```bash
+     ollama --version
+
+4. **Set Up and Run Models with Ollama**:
+   - Start Ollama:
+     ```bash
+     ollama start
+     ```
+   - Pull a Model: To download a model (e.g., I have used llama3.1), run:
+     ```bash
+     ollama pull llama3.1  
+     ```
+
+### Steps to Set Up and run on your local device:
 
 1. **Install dependencies:**
    ```bash
@@ -54,6 +70,7 @@ Ensure you have the following installed:
 3. **Run the development server:**
    ```bash
    npm run dev
+Visit localhost to see the app running.
 
 ### Making Changes
 
@@ -73,9 +90,9 @@ Ensure you have the following installed:
 ### Submit a Pull Request (PR)
 
 - Go to your forked repository on GitHub.
-- Click on the New Pull Request button.
+- Click on the ```New Pull Request``` button.
 - Provide a detailed description of your changes, linking any issues if applicable.
 
 If you have any questions or need help, feel free to open an issue or reach out via email.
 
-Happy coding! 🎉
+***Happy coding!*** 🎉
