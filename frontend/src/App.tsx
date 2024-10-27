@@ -71,7 +71,7 @@ const App = () => {
   );
 
   return (
-    <div className="bg-gradient-to-r from-[#eee5d9] to-[#dfdfdf] p-3 text-[#0f2d29] h-screen flex flex-col items-center justify-center relative">
+    <div className="bg-gradient-to-r from-[#efefe9] via-[#f2e9dc88] to-[#dcf6e8] p-3 text-[#223030] h-screen flex flex-col items-center justify-center relative">
       <div className="absolute top-4 left-4">
         <img
           src={idea}
@@ -80,7 +80,7 @@ const App = () => {
         />
       </div>
 
-      <section className="py-8 mt-4 space-y-8 text-center max-w-5xl">
+      <section className="py-8 mt-4 space-y-6 text-center max-w-5xl">
         <header className="space-y-2">
           <h1 className="font-outfit font-heading text-[30px] font-semibold md:text-[33px] lg:text-[35px]">
             Find Your Startup's Match:{" "}

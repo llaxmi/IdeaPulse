@@ -5,13 +5,13 @@ import { JSONLoader } from "langchain/document_loaders/fs/json";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 
 const formatInstructions = `
-Respond only in valid JSON. The JSON array should contain objects with the following schema: [{ "name": string, "website": "string", "all_locations": "string", "logo": "string", "one_liner": "string" }]
+Respond only in valid JSON. The JSON array should contain objects with the following schema: [{ "name": string, "website": "string", "all_locations": "string", "small_logo_thumb_url": "string", "one_liner": "string" }] strictly.
 If no similar ideas are found, respond with an empty JSON array: []
 Strictly return only JSON with no additional text, comments, or line breaks outside of the JSON structures.
 `;
 
 async function run(query) {
-  const loader = new JSONLoader("./minData.json");
+  const loader = new JSONLoader("./mini2.json");
 
   try {
     // Load documents
@@ -37,8 +37,9 @@ async function run(query) {
 
     // Extract necessary fields directly from the retrieved documents
     const extractedData = retrievedDocs.map((doc) => {
-      const { name, website, all_locations, logo, one_liner } = doc.pageContent;
-      return { name, website, all_locations, logo, one_liner };
+      const { name, website, all_locations, small_logo_thumb_url, one_liner } =
+        doc.pageContent;
+      return { name, website, all_locations, small_logo_thumb_url, one_liner };
     });
 
     const formattedDocs = JSON.stringify(extractedData);
@@ -49,7 +50,7 @@ async function run(query) {
     // Create the prompt template
     const prompt = ChatPromptTemplate.fromTemplate(`
       Based on the user's query: "{query}",
-      retrieve and list the most similar previously funded companies from the documents below.
+      retrieve and list the most similar previously funded companies strictly from the documents below.
       Documents:
       {docs}
       {format_instructions}

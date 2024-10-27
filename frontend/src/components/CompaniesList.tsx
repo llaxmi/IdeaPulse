@@ -6,6 +6,7 @@ interface Company {
   website: string;
   all_locations: string;
   one_liner: string;
+  small_logo_thumb_url: string;
 }
 
 interface CompanyListProps {
