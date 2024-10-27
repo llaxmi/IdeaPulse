@@ -71,7 +71,7 @@ const App = () => {
   );
 
   return (
-    <div className="bg-gradient-to-r from-[#cfe1f2] to-[#deede5] p-3 text-[#0e2e2e] h-screen flex flex-col items-center justify-center relative">
+    <div className="bg-gradient-to-r from-[#eee5d9] to-[#dfdfdf] p-3 text-[#0f2d29] h-screen flex flex-col items-center justify-center relative">
       <div className="absolute top-4 left-4">
         <img
           src={idea}

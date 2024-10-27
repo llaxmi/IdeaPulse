@@ -72,7 +72,7 @@ async function run(query) {
       error.message
     );
     return JSON.stringify({
-      message: "An error occurred. Please try again later.",
+      message: "Restart your llm. Please try again later.",
     });
   }
 }

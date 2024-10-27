@@ -10,7 +10,7 @@ const Suggestions = ({ onClick }: SuggestionsProps) => {
       {suggestions.map((suggestion, index) => (
         <button
           key={index}
-          className="bg-gray-300 text-gray-700 px-4 py-1 rounded-full text-sm"
+          className="bg-[#F5F5F5] text-gray-700 px-4 py-1 rounded-full text-sm"
           onClick={() => onClick(suggestion)} // Pass the suggestion to the onClick function
         >
           {suggestion} ↖︎
