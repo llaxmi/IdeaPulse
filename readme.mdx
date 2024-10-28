@@ -2,6 +2,10 @@
 
 IdeaPulse is a web application that allows users to quickly check if ideas similar to theirs have been funded by Y Combinator (YC). The tool utilizes React.js, Vite, LangChain, and Vector Store to provide an efficient and user-friendly experience. Users can input their ideas, and the application will search through a database of funded projects to find relevant matches.
 
+<img width="1680" alt="Screenshot" src="https://i.imgur.com/ihrH57r.jpeg">
+<img width="1680" alt="Screenshot" src="https://i.imgur.com/skSAU5Q.jpeg">
+<img width="1680" alt="Screenshot" src="https://i.imgur.com/0WFwF4H.jpeg">
+
 ### Features
 
 - **Idea Submission**: Users can submit their ideas for analysis.
@@ -54,23 +58,27 @@ Before you begin, please read and follow these guidelines:
      ```bash
      ollama start
      ```
-   - Pull a Model: To download a model (e.g., I have used llama3.1), run:
+   - Pull a Model: To download the required models, run:  
+     llama3.1 - Used for text generation:
      ```bash
      ollama pull llama3.1  
-     ```
+     ```  
+     nomic-embed-text - Used for embedding text and vector search:  
+     ```bash 
+     ollama pull nomic-embed-text
 
 ### Steps to Set Up and run on your local device:
 
-1. **Install dependencies:**
-   ```bash
-   npm install
-2. **Start Ollama on your device:**
-   ```bash 
-   ollama serve
-3. **Run the development server:**
-   ```bash
-   npm run dev
-Visit localhost to see the app running.
+1.  **Install dependencies:**
+    ```bash
+    npm run install:both
+2.  **Start Ollama on your device:**
+    ```bash 
+    ollama serve
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+ Visit localhost to see the app running.
 
 ### Making Changes
 
