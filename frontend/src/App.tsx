@@ -61,7 +61,7 @@ const App = () => {
         type="text"
         className="w-full px-4 border-none py-3 text-sm rounded-lg outline-none"
         spellCheck="false"
-        placeholder="Describe your idea to IdeaFoundry"
+        placeholder="Describe your idea"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         autoFocus

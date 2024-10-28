@@ -2,10 +2,11 @@ import { JsonOutputParser } from "@langchain/core/output_parsers";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { Ollama, OllamaEmbeddings } from "@langchain/ollama";
 import { JSONLoader } from "langchain/document_loaders/fs/json";
+import { formatDocumentsAsString } from "langchain/util/document";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 
 const formatInstructions = `
-Respond only in valid JSON. The JSON array should contain objects with the following schema: [{ "name": string, "website": "string", "all_locations": "string", "small_logo_thumb_url": "string", "one_liner": "string" }] strictly.
+Respond only in valid JSON. The JSON array should contain objects with the following schema: [{ "name": string, "website": "string", "all_locations": "string", "small_logo_thumb_url": "string", "one_liner": "string" }] strictly only from given.
 If no similar ideas are found, respond with an empty JSON array: []
 Strictly return only JSON with no additional text, comments, or line breaks outside of the JSON structures.
 `;
@@ -34,15 +35,7 @@ async function run(query) {
     if (!retrievedDocs || retrievedDocs.length === 0) {
       return JSON.stringify([]); // Return empty JSON array if no similar ideas are found
     }
-
-    // Extract necessary fields directly from the retrieved documents
-    const extractedData = retrievedDocs.map((doc) => {
-      const { name, website, all_locations, small_logo_thumb_url, one_liner } =
-        doc.pageContent;
-      return { name, website, all_locations, small_logo_thumb_url, one_liner };
-    });
-
-    const formattedDocs = JSON.stringify(extractedData);
+    // console.log(retrievedDocs);
 
     // Initialize LLM model
     const llm = new Ollama({ model: "llama3.1" });
@@ -50,22 +43,19 @@ async function run(query) {
     // Create the prompt template
     const prompt = ChatPromptTemplate.fromTemplate(`
       Based on the user's query: "{query}",
-      retrieve and list the most similar previously funded companies strictly from the documents below.
-      Documents:
-      {docs}
-      {format_instructions}
+      Here is the doc  {docs} with relevant information,retrieve and list the most similar previously funded companies strictly.
+      {formatInstructions}
     `);
 
     // Prepare partial prompt
     const partialPrompt = await prompt.partial({
-      format_instructions: formatInstructions,
-      docs: formattedDocs, // Using the extracted data for LLM processing
+      formatInstructions: formatInstructions,
+      docs: formatDocumentsAsString(retrievedDocs),
     });
 
     // Build the chain and invoke
     const chain = partialPrompt.pipe(llm).pipe(new JsonOutputParser());
     const result = await chain.invoke({ query });
-
     return result;
   } catch (error) {
     console.error(

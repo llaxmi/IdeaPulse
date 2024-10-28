@@ -1,11 +1,10 @@
 interface CompanyDetailProps {
   company: {
     name: string;
-    long_description: string;
+    small_logo_thumb_url: string;
     website: string;
     all_locations: string;
     one_liner: string;
-    small_logo_thumb_url: string;
   };
 }
 

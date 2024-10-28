@@ -256,6 +256,14 @@
     "one_liner": "The leading online learning platform for technical skills."
   },
   {
+    "name": "Codecademy",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee26c3b11a260e7a045f68b47d8c804b306db89f.png",
+    "Long_description": "Working professionals are experiencing their jobs changing amidst the rise of technology and automation threatens over 800 million jobs. At the same time, software is eating the world, disrupting every major industry, and creating millions of new technology jobs that companies are eager to fill. This is the skills gap. Our mission is closing it.\r\n\r\nIn 2011, we changed the face of education by creating free interactive coding courses explored by over 45 million people. As we look to the future, we're focused on helping anyone get the skills they need for the jobs they want.  We aim to bridge the gap: between companies and the workforce, people and their dream jobs. Join one of the most dynamic technology companies in New York that is changing the way the world learns.\r\n\r\nHeadquartered in New York City, our team is filled with highly curious diverse individuals whose backgrounds span tech and education. Our team is passionate about our mission: helping people get the skills they need for the jobs they want. We seek transparency, thrive on feedback, value teamwork, love evolving and never forget it's people first. We enjoy catered lunches together, company outings, guest speakers and long walks on the beach.",
+    "website": "http://codecademy.com",
+    "all_locations": "New York, NY, USA",
+    "one_liner": "The leading online learning platform for technical skills."
+  },
+  {
     "name": "Checkr",
     "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/211825b572def7bbe7c182d84f166129bc978b6b.png",
     "Long_description": "Checkr builds people infrastructure for the future of work. And we believe everyone should have a fair chance to work. That's why we've designed a faster—and fairer—way to screen job seekers. For more information on our mission and products, visit http://checkr.com.",
@@ -278,6 +286,14 @@
     "website": "https://www.clipboardhealth.com/careers",
     "all_locations": "Remote",
     "one_liner": "Connects healthcare facilities with nurses nearby."
+  },
+  {
+    "name": "Sample",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6e0d3f747777064eae6051c75654887bc5cb6e33.png",
+    "Long_description": "Sample Healthcare is the fastest way for healthcare organizations to responsibly deploy AI in their operations. We help teams build custom copilots for their administrative tasks, like getting paid by health insurance, and then use the data from those copilots to fine tune task specific models.",
+    "website": "https://samplehc.com",
+    "all_locations": "San Francisco, CA, USA",
+    "one_liner": "Automating reimbursement for healthcare providers."
   },
   {
     "name": "Heap",
@@ -368,86 +384,6 @@
     "one_liner": "The leader in automated data movement"
   },
   {
-    "name": "Optimizely",
-    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d8d48fc3d7aa043a1e1d86d30f84a388f342454.png",
-    "Long_description": "At Optimizely, we're on a mission to help people unlock their digital potential. We do that by reinventing how marketing and product teams work to create and optimize digital experiences across all channels. With Optimizely One, our industry-first operating system for marketers, we offer teams flexibility and choice to build their stack their way with our fully SaaS, fully decoupled, and highly composable solution. We help companies around the world orchestrate their entire content lifecycle, monetize every digital experience and experiment across all customer touchpoints – all through Optimizely One, the leading digital experience platform that powers every phase of the marketing lifecycle through a single, AI-accelerated workflow. \r\n\r\nOptimizely has nearly 1500 employees across our 21 global offices and has 700+ partners. We are proud to help more than 10,000 businesses, including H&M, PayPal, Zoom, and Toyota, enrich their customer lifetime value, increase revenue and grow their brands. At Optimizely, we live each day with a simple philosophy: large enough to serve, small enough to care. Learn more at optimizely.com. ",
-    "website": "http://optimizely.com",
-    "all_locations": "San Francisco, CA, USA",
-    "one_liner": "The first all-in-one operating system for marketing"
-  },
-  {
-    "name": "Flexport",
-    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/897ef3a983ed364ca3122044cf2d2a92e05b34bb.png",
-    "Long_description": "Founded in 2013, we believe trade can move the human race forward. That’s why our mission at Flexport is to make global trade easy for everyone.\r\n\r\nWhat the internet has done for bits and bytes, Flexport is doing for physical goods: giving every business the ability to connect to any customer, wherever they are in the world. That sounds pretty straightforward, but a fragmented and inefficient global supply chain has held the world back from untapped growth and innovation. By connecting everyone in the global economy we can unlock commerce, creativity, and human progress.\r\n\r\nTo do so, we’re building the platform for global logistics—empowering buyers, sellers and their logistics partners with the technology and services they need to grow and innovate. \r\nToday, we work with more than 40,000 customers and their suppliers across industries like manufacturing, retail, electronics, consumer goods, tech, apparel, and beauty. Companies of all sizes—from emerging brands to Fortune 500s—used Flexport technology to move nearly $19B of merchandise across 112 countries in 2021.\r\n\r\nInterested in joining our team? Check out our open job postings on careers site and apply directly today! https://www.flexport.com/careers/jobs/ ",
-    "website": "https://www.flexport.com/careers/jobs/",
-    "all_locations": "San Francisco, CA, USA",
-    "one_liner": "Platform for global logistics."
-  },
-  {
-    "name": "WePay",
-    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5bafed02435325734c5fec395dabe88c19ce051c.png",
-    "Long_description": "WePay is a multi-party payments API for SMB SaaS, POS Platforms, and Online Marketplaces. It was acquired by JPMorgan Chase in 2018.",
-    "website": "http://wepay.com",
-    "all_locations": "Redwood City, CA, USA",
-    "one_liner": "Payments for platform businesses."
-  },
-  {
-    "name": "Weebly",
-    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1f9ac2ce5b5a93035fbbf9775d29c02d9a37dd6f.png",
-    "Long_description": "Company Information\r\nWeebly is a consumer service that gives people a surprisingly easy and affordable way to create a site that is as unique as they are. Weebly lets entrepreneurs start something and showcase their work. With a Weebly site, people can communicate with their clients, promote their works to potential buyers, share their story with like-minded people, and be an authority on personal and professional interests.\r\n\r\nWeebly offers a range of pricing options, including a free plan and premium plans starting at $4/month. Weebly sites are optimized to work brilliantly across computers, phones and tablets.\r\n\r\nGlobal Growth\r\nOver 20million people around the world have started a site on Weebly\r\nWeebly sites receive over 100,000,000 unique visitors each month\r\nWeebly is offered in 11 languages: English, French, Spanish, Italian, German, Portuguese, Dutch, Chinese, JPese, Russian and Turkish\r\n\r\nWeebly is privately funded by Sequoia Capital, Baseline Ventures, Ron Conway, and Y Combinator.",
-    "website": "http://weebly.com",
-    "all_locations": "San Francisco, CA, USA",
-    "one_liner": "Build a free website that grows with your business."
-  },
-  {
-    "name": "Flock Safety",
-    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee69b5c905088288ff0fc007921dde14514a40a1.png",
-    "Long_description": "Flock Safety provides the first public safety operating system that empowers private communities and law enforcement to work together to eliminate crime. We are committed to protecting human privacy and mitigating bias in policing with the development of best-in-class technology rooted in ethical design, which unites civilians and public servants in pursuit of a safer, more equitable society. \r\n\r\nOur Safety-as-a-Service approach includes affordable devices powered by LTE and solar that can be installed anywhere.  Our technology detects and captures objective details, decodes evidence in real-time and delivers investigative leads into the hands of those who matter. \r\n\r\nWhile safety is a serious business, we are a supportive team that is optimizing the remote experience to create strong and fun relationships even when we are physically apart. Our flock of hard-working employees thrive in a positive and inclusive environment, where a bias towards action is rewarded. Flock Safety is headquartered in Atlanta and operates nationwide. We have raised $150M in our Series E led by Tiger Global at a $3.5B valuation.",
-    "website": "http://www.flocksafety.com",
-    "all_locations": "Atlanta, GA, USA",
-    "one_liner": "The first public safety operating system that eliminates crime."
-  },
-  {
-    "name": "Sqreen",
-    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9d891f44fe59b3c6d5bbb6ce15c0d60af544b9b8.png",
-    "Long_description": "Sqreen is the application security platform for the modern enterprise. More than 800 organizations trust Sqreen to protect, observe and test their applications, APIs and microservices. As opposed to pattern-based approaches, Sqreen analyses in-app execution in real time to deliver more robust security without compromising performance.",
-    "website": "https://www.sqreen.com/",
-    "all_locations": "San Francisco, CA, USA",
-    "one_liner": "Sqreen is the application security platform for the modern enterprise"
-  },
-  {
-    "name": "NURX",
-    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e30eef55b4ffb18884d227d20476b264b3388dd6.png",
-    "Long_description": "Nurx is a telemedicine startup focused on increasing access to healthcare, starting with birth control and PrEP services.",
-    "website": "https://www.nurx.com/",
-    "all_locations": "New York, NY, USA; CA, USA",
-    "one_liner": "Medicine or testing kit, prescribed online and delivered to your door."
-  },
-  {
-    "name": "Go1",
-    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e1004ce910aafa76388e32ce5e89e431e2a22211.png",
-    "Long_description": "In today’s environment, employees need training to ensure business compliance, skill development and to support an engaged workforce. Go1 brings together content from the world’s top training providers and makes it easy to access in whichever platform your organization uses. This makes it easier to deliver, manage and engage with training. Go1 also works with existing LMS, HRIS, and business systems to make learning simpler and more effective.",
-    "website": "https://go1.com",
-    "all_locations": "San Francisco, CA, USA",
-    "one_liner": "A learning platform that enables you to train your staff or customers."
-  },
-  {
-    "name": "CoreOS",
-    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0f9ad52c13f8ee67948f0995334dcaff8673134d.png",
-    "Long_description": "CoreOS is part of the Red Hat family. A leader in the open source community and an innovator of open source projects, CoreOS creates and delivers critical components for containerized applications that help fuel broad adoption of secure, scalable and resilient infrastructure. The team maintains several open source projects, including: Container Linux: the secure automatic updating OS; and etcd, the distributed data store for Kubernetes. \r\n\r\nJoin us at https://coreos.com/ and @CoreOS on Twitter.",
-    "website": "http://coreos.com",
-    "all_locations": "San Francisco, CA, USA",
-    "one_liner": "Open source tools of modern distributed systems."
-  },
-  {
-    "name": "Bear Flag Robotics",
-    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f6c760103131e6cfdd881aff2d03fe079d21ff37.png",
-    "Long_description": "Bear Flag Robotics is developing autonomous driving technology for farm tractors. By equipping tractors and implements with technology, Bear Flag allows growers to automate and optimize many of their most common tasks. This addresses the farm labor shortage while removing workers from hazardous conditions. Additionally, Bear Flag provides growers with analytics that help them garner actionable insights about their crops and operations.",
-    "website": "http://bearflagrobotics.com/",
-    "all_locations": "Newark, CA, USA",
-    "one_liner": "Autonomous driving technology for farm tractors."
-  },
-  {
     "name": "GOAT Group",
     "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4f3a455935f36a6655742aae286b206df1cd13bd.png",
     "Long_description": "GOAT Group represents the leading platforms for authentic sneakers, apparel and accessories. Operating four distinct brands–GOAT, Flight Club, Grailed and alias–GOAT Group has a global community of over 50M members across 170 countries.\r\n\r\nWe are backed by some of the leading names in venture capital including Accel Partners, Andreessen Horowitz, Index Ventures, Matrix Partners, NEA, SV Angel, Upfront Ventures, Webb Investment Network and Y Combinator.",
@@ -462,6 +398,14 @@
     "website": "http://heroku.com",
     "all_locations": "San Francisco, CA, USA",
     "one_liner": "Enabling developers to build and run applications in the cloud."
+  },
+  {
+    "name": "BiteSight",
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/271fe2b65b962c0591e8700c14d977ce6c108e5c.png",
+    "Long_description": "BiteSight shows users videos of food we think they will love from nearby restaurants and delivers it right to their door. \r\n\r\nZac and Lucious studied together at UT Austin. Zac did CS and AI Research, and Lucious built his first $1M ARR product while moonlighting at a YC startup at age 19.\r\n\r\nSince launching the beta in February, BiteSight has onboarded 274 restaurants in SF, handled 211 orders, and users are growing more than 50% each week, all organically.\r\n\r\nUberEats and DoorDash have become cluttered and impersonal super apps. They've created a $30B opportunity for a delivery app that puts the customer experience first by combining high-quality videos, recommendations, and social proof from your most trusted food critics - your friends.",
+    "website": "http://bitesight.com",
+    "all_locations": "",
+    "one_liner": "The video-first food delivery app. Imagine TikTok meets DoorDash."
   },
   {
     "name": "Groww",
